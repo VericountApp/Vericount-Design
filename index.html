@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vericount Designsystem – Visuell identitet och komponenter</title>
+    <meta name="description" content="Vericounts designsystem med färger, typografi, komponenter och riktlinjer. Allt du behöver för att bygga med Vericounts visuella identitet." />
+    <meta name="author" content="Vericount AB" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://design.vericount.se/" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Preload fonts (avoid render-blocking @import) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Vericount Designsystem" />
+    <meta property="og:description" content="Färger, typografi, komponenter och riktlinjer för Vericounts visuella identitet." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://design.vericount.se/" />
+    <meta property="og:image" content="https://design.vericount.se/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Vericount Designsystem – Visuell identitet, komponenter och riktlinjer" />
+    <meta property="og:locale" content="sv_SE" />
+    <meta property="og:site_name" content="Vericount Designsystem" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vericount Designsystem" />
+    <meta name="twitter:description" content="Färger, typografi, komponenter och riktlinjer för Vericounts visuella identitet." />
+    <meta name="twitter:image" content="https://design.vericount.se/og-image.png" />
+    <meta name="twitter:image:alt" content="Vericount logotyp" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://vericount.se/#organization",
+          "name": "Vericount AB",
+          "url": "https://vericount.se",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://design.vericount.se/og-image.png",
+            "width": 1200,
+            "height": 630
+          },
+          "description": "Automatiserad avstämning och kvalitetskontroll för redovisningsbyråer i Sverige."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://design.vericount.se/#website",
+          "name": "Vericount Designsystem",
+          "url": "https://design.vericount.se/",
+          "description": "Vericounts designsystem med färger, typografi, komponenter och riktlinjer.",
+          "inLanguage": "sv",
+          "publisher": {
+            "@id": "https://vericount.se/#organization"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://design.vericount.se/#webpage",
+          "name": "Vericount Designsystem – Visuell identitet och komponenter",
+          "url": "https://design.vericount.se/",
+          "description": "Färger, typografi, komponenter och riktlinjer för Vericounts visuella identitet.",
+          "inLanguage": "sv",
+          "isPartOf": {
+            "@id": "https://design.vericount.se/#website"
+          },
+          "about": {
+            "@id": "https://vericount.se/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Designsystem",
+              "item": "https://design.vericount.se/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="max-width:600px;margin:80px auto;padding:0 24px;font-family:Inter,sans-serif;color:#19342b">
+        <h1 style="font-family:Epilogue,sans-serif;font-size:1.5rem;margin-bottom:12px">Vericount Designsystem</h1>
+        <p>Riktlinjer, komponenter och resurser som formar Vericounts visuella identitet.</p>
+        <p style="margin-top:16px;color:#5c8a7a">JavaScript krävs för att visa designsystemet. Aktivera JavaScript i din webbläsare.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
